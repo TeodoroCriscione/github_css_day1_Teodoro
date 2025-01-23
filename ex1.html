@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 1</title>
+    <link rel="stylesheet" href="ex1.css">
+</head>
+<body>
+<div id="wrapper">
+    <div class="container">
+        <h1>Something as H1</h1>
+
+        <!-- Left Content -->
+        <div class="left" id="first"> <h2>Left Content</h2>
+
+            <div class="left" id="third">
+                <p>Left Content Subnode 1 (third)(paragraph). Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, ipsam.</p>
+                <span>Left Content Subnode 1 (third)(spanned). Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, dicta!</span> <!--THIS WAS HIDDEN-->
+            </div>
+
+            <br>
+
+            <div class="left" id="fourth">
+
+                <span>Left Content Subnode 2 (fourth)(spanned). Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, sequi?</span>
+
+                <ul>Left Content Subnode 2 (fourth)(list). This is an unordered list of stuff:
+                    <li>Stuff A</li>
+                    <li>Stuff B</li>
+                    <li>Stuff C</li>
+                </ul>
+
+            </div>
+        </div>
+
+        <!-- Right Content -->
+        <div class="right" id="second"><h2>Right Content</h2>
+
+            <div class="right" id="fifth"> 
+               <p> Right Content Subnode 1 (fifth)(paragraph). Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui, accusantium. </p> <!--THIS WAS HIDDEN-->
+            </div>
+
+            <br>
+
+            <div class="right" id="sixth">
+                <section>Right Content Subnode 2 (sixth)(section). Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, labore. </secton>
+
+                <br>
+
+                <img src="cow.jpg" alt="this is a cow">
+            </div>
+        </div>
+        <form>
+            <!-- <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Name"> -->
+            <label for="text1">Write some text here INSIDE of div "container":</label>
+            <div>
+            <textarea name="" rows="7" cols="61" id="text1"></textarea>
+            </div>
+        </form>
+    </div>
+    <form>
+        <label for="text2">Write also some text here OUTSIDE of div "container":</label>
+        <div>
+        <textarea name="" rows="7" cols="63" id="text2"></textarea>
+        <br>
+        <button type="submit">Submit</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>

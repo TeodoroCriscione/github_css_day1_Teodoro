@@ -1,0 +1,71 @@
+*{  box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+#wrapper {
+    border: 1px;
+    width: 400px;
+    margin: 10px auto;
+}
+
+/* Give all the divs a margin of 5px */
+div {
+    margin: 5px;
+    border: 1px solid black;
+}
+
+/* The h1 element should have a text color blue. */
+
+h1 {
+    color: blue;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Hide the span element that is the direct child of the div with the id of
+“third” keeping its space on the dom */
+
+/* 
+#third>span {
+    visibility: hidden;
+}
+*/
+
+#third > p {
+    background-color: lightcoral;
+}
+
+/* Hide the paragraph from the right class NOT keeping its space on the
+dom. */
+
+/* 
+#fifth p {
+    /*display: none;*
+}
+*/
+
+/* Give the image a width and height of 300px */
+
+img {
+    width: 300px;
+}
+
+/* All paragraphs should have text color red */
+
+p {
+    color : red;
+}
+
+textarea {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}

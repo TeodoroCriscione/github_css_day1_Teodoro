@@ -1,0 +1,53 @@
+
+h1 {text-align: center;
+}
+
+main {border: 1px;
+    width: 500px;
+    margin: 10px auto;
+    text-align: justify;
+}
+
+h2 {text-align: center;
+}
+
+div {font-style: italic;
+    padding: 20px 90px 20px 90px;  /* padding: top right bottom left; */
+    text-align: justify;
+}
+
+section > span {font-style: italic;
+                color: brown;
+}
+
+.quote {
+    font-style: italic;
+    border: 1px solid black;
+    margin: 10px solid brown;
+    padding: 20px 90px 20px 90px;  /* padding: top right bottom left; */
+    text-align: justify;
+    background-color: bisque;
+}
+
+
+#final_image{
+    background-color: bisque;
+    border: 1px solid black;
+    height: 100%;
+    align-content: center;
+    text-align: center;
+}
+
+footer {
+    padding: 10px 400px 10px 400px;
+    text-align: center;
+    font-weight: bold;
+    align-content: center;
+}
+
+#footer_div {
+    border: 1px solid black;
+    background-color: bisque;
+    align-content: center;
+    text-align: center;
+} 
